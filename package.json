@@ -1,0 +1,23 @@
+{
+  "name": "erim32",
+  "version": "1.0.0",
+  "description": "A simple bio project for my github profile",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erim32/erim32.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erim32/erim32/issues"
+  },
+  "homepage": "https://github.com/erim32/erim32#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0"
+  }
+}
