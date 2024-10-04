@@ -91,8 +91,8 @@
 
 Added the `Sun 28 July 2024`
 
-Last update on `Thu Oct 03 2024`
+Last update on `Fri Oct 04 2024`
 
-**89 day before 2025 ⏱** days before new years
+**88 day before 2025 ⏱** days before new years
 
-This README.md is updated with cruelty, ❤️
+This README.md is updated with horror, ❤️
