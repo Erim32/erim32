@@ -1,7 +1,6 @@
 const { promises: fs } = require('fs');
 const readme = require('./readme');
 
-const msInOneDay = 1000 * 60 * 60 * 24;
 
 const today = new Date();
 
@@ -18,9 +17,7 @@ function generateNewREADME() {
   }
 
   const identifierToUpdate = {
-    day_before_new_years: getDBNWSentence(),
     today_date: getTodayDate(),
-    gabot_signing: getGabotSigning(),
   };
 
   Object.entries(identifierToUpdate).forEach(([key, value]) => {
@@ -30,34 +27,11 @@ function generateNewREADME() {
   return readmeRow.join('\n');
 }
 
-const moodByDay = {
-  1: 'hate',
-  2: 'wickedness',
-  3: 'pleasure',
-  4: 'kindness',
-  5: 'cruelty',
-  6: 'horror',
-  7: 'love',
-};
-
-function getGabotSigning() {
-  const mood = moodByDay[today.getDay() + 1];
-  return `This README.md is updated with ${mood}, ❤️`;
-}
 
 function getTodayDate() {
   return today.toDateString();
 }
 
-function getDBNWSentence() {
-  const nextYear = today.getFullYear() + 1;
-  const nextYearDate = new Date(String(nextYear));
-
-  const timeUntilNewYear = nextYearDate.getTime() - today.getTime();
-  const dayUntilNewYear = Math.round(timeUntilNewYear / msInOneDay);
-
-  return `**${dayUntilNewYear} day before ${nextYear} ⏱**`;
-}
 
 const findIdentifierIndex = (rows, identifier) =>
   rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, 'i'))));
