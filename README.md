@@ -1,7 +1,6 @@
 <!-- Gradient divider -->
 <img src="./images/bar.gif" alt="divider" />
 
-<<<<<<< HEAD
 <!-- Animated typing header -->
 <div align="center">
   <a href="https://erim.fr">
@@ -9,13 +8,6 @@
       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3500&pause=800&color=1652F2&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+R%C3%A9mi+%F0%9F%91%8B;Data+Scientist+and+Developer;Open-Source+Enthusiast;Always+learning%2C+always+building"
       alt="Typing SVG" />
   </a>
-=======
-<!--h1 without bottom border-->
-<div id="user-content-toc">
-  <ul align="center">
-    <summary><h1 style="display: inline-block">Welcome 👋, I'm Rémi</h1></summary>
-  </ul>
->>>>>>> 7f79a7cb484f285021e70c4dd236183d33cb9edc
 </div>
 
 <br>
@@ -42,35 +34,12 @@
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-<<<<<<< HEAD
   <img height="180"
     src="https://github-profile-trophy-sigma-one.vercel.app/api?username=erim32&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1652F2&title_color=1652F2&text_color=FFFFFF&include_all_commits=true&count_private=true"
     alt="GitHub Stats" />
   <img height="180"
     src="https://github-readme-streak-stats.herokuapp.com/?user=erim32&theme=tokyonight&hide_border=true&background=0D1117&ring=1652F2&fire=1652F2&currStreakLabel=1652F2"
     alt="GitHub Streak" />
-=======
-  <!--- stats (start) -->
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
-
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=erim32&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
-
-  </td>
-</tr>
-</table>
-<!--- stats (end) -->
-
-<!--- trophy (start) -->
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy-kannan.vercel.app/?username=erim32&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-    </a>
-</div>
-<!--- trophy (start) -->
-
->>>>>>> 7f79a7cb484f285021e70c4dd236183d33cb9edc
 </p>
 
 <p align="center">
@@ -189,15 +158,3 @@
   </div>
 
 
-<<<<<<< HEAD
-=======
----
-
-Added the `Sun 28 July 2024`
-
-Last update on `Mon Apr 20 2026`
-
-**255 day before 2027 ⏱** days before new years
-
-This README.md is updated with wickedness, ❤️
->>>>>>> 7f79a7cb484f285021e70c4dd236183d33cb9edc
