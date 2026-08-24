@@ -9,27 +9,26 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - name: Use Node.js lts/*
+        uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: lts/*
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
       - name: Update README.md file
-        run: |
-          node index.js > README.md
+        run: node index.js
         env:
           CI: true
       - name: commit changes
-        uses: EndBug/add-and-commit@v4
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: Erim
           author_email: contact@erim.fr
-          force: false
-          signoff: false
+          push: true
           message: ':memo: README.md updated'
         env:
           # This is necessary in order to push a commit to the repo
